@@ -6,7 +6,7 @@ header("Location: http://localhost/Blog/login.php");
 }
 $serverName = "localhost:3307";
 $user = "Ananya";
-$pwd = "ananya101";
+$pwd = "";
 $db = mysqli_connect($serverName,$user,$pwd,"blogwebsite");
 $mail =  mysqli_real_escape_string($db,$_POST['mail']);
 $name =  mysqli_real_escape_string($db,$_POST['name']);

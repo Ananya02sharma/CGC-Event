@@ -2,7 +2,7 @@
 function getMainPost(){
     $serverName = "localhost:3307";
 $user = "Ananya";
-$pwd = "(iI0AAYJy_rHz{zu";
+$pwd = "";
 $db = mysqli_connect($serverName,$user,$pwd,"blogwebsite");
 $query = "SELECT * FROM post ORDER BY date DESC LIMIT 20 ";
 $result = mysqli_query($db,$query);

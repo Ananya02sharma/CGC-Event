@@ -2,7 +2,7 @@
 
     $serverName = "localhost:3307";
     $user = "Ananya";
-    $pwd = "(iI0AAYJy_rHz{zu";
+    $pwd = "";
     $db = mysqli_connect($serverName,$user,$pwd,"blogwebsite");
     // $id = $_POST['id'];
     $title = mysqli_real_escape_string($db,$_POST['seo']);
